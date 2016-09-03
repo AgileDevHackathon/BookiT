@@ -2,24 +2,19 @@
   <title>bookit</title>
 </head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
+<template name="main">
+    <header>
+        <h1>Here goes the header</h1>
+    </header>
 
-  {{> hello}}
-  {{> info}}
-</body>
+    <main>
+        {{>Template.dynamic template=content}}
+    </main>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+    <footer>Footer</footer>
 </template>
 
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
+
+<template name="home">
+    This is where the body of the body goes.
 </template>
