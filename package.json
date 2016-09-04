@@ -2,7 +2,8 @@
   "name": "bookit",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "dev": "meteor run --settings settings-development.json"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
