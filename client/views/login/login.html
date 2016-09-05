@@ -1,3 +1,53 @@
 <template name="login">
-    {{>loginButtons}}
+    <div class="jumbotron text-center" style="height:100vh">
+      <div class="image">
+        <img src="img/bookit-logo-white.png" id="main_logo"/>
+        <h3>booking made simple.</h3>
+      </div>
+      <!-- <form class="form-inline"> -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <p>Looking to make a reservation?</p>
+          <div class="container">
+              <form role="form">
+                <fieldset>
+                  <div class="row">
+                    <button type="submit"><img src="img/login-with-google-v1.png"></button>
+                  </div>
+
+                  <div class="row" style="padding-top: 20px">
+                    <button type="submit"><img src="img/login-with-facebook-v1.png"></button>
+                  </div>
+                </fieldset>
+              </form>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <p>Want to use Bookit for your business?</p>
+          <div class="container">
+              <form role="form">
+                <fieldset>
+                  <div class="form-group" id="username_input">
+                      <input class="form-control" placeholder="E-mail" name="email" type="email" size="50" autofocus>
+                  </div>
+
+                  <div class="row">
+                    <div class="form-group" id="password_input">
+                      <input class="form-control" placeholder="Password" name="password" type="password" size="50">
+                    </div>
+                  </div>
+
+                  <div class="row" id="sign_buttons">
+                    <button  type="button" class="btn btn-primary btn-lg">Sign In</button>
+                    <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
+                  </div>
+                </fieldset>
+              </form>
+          </div>
+        </div>
+      </div>
+  <!-- </form> -->
+    </div>
 </template>

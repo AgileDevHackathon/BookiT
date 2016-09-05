@@ -1,0 +1,38 @@
+.jumbotron {
+    background-color: #268E38;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+
+#main_logo {
+    padding-top: 40px;
+    padding-right:120px;
+    padding-bottom: 50px;
+}
+
+#sign_buttons {
+    padding-top: 10px;
+}
+
+form button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h3 {
+   position: absolute;
+   top: 160px;
+   left: 50px;
+   width: 100%;
+}

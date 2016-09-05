@@ -1,22 +1,21 @@
 <head>
-  <title>bookit</title>
+  <title>Bookit: booking made simple.</title>
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 </head>
 
 <template name="main">
     <header>
-        <h1>Here goes the header</h1>
-        {{>loginButtons}}
+        {{>nav}}
     </header>
 
     <main>
-        {{>Template.dynamic template=content}}
+        {{#if currentUser}}
+            {{>Template.dynamic template=content}}
+        {{else}}
+            {{>login}}
+        {{/if}}
     </main>
 
     <footer>Footer</footer>
-</template>
-
-
-<template name="home">
-
-    This is where the body of the body goes.
 </template>
