@@ -1,4 +1,4 @@
-Template.login.events({
+Template.public_login.events({
 
 	"click .loginOrText": function () {
 
