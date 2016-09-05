@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bookit: booking made simple.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src='bookit-logo-white-mini.png'/>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center" style="height:100vh">
+  <div class="image">
+    <img src="bookit-logo-white.png" id="main_logo"/>
+    <h3>booking made simple.</h3>
+  </div>
+  <form class="form-inline">
+  <div class="row">
+
+    <div class="col-md-6">
+      <p>Looking to make a reservation?</p>
+      <div class="container">
+          <form role="form">
+            <fieldset>
+              <div class="row">
+                <button type="submit"><img src="login-with-google-v1.png"></button>
+              </div>
+
+              <div class="row" style="padding-top: 20px">                
+                <button type="submit"><img src="login-with-facebook-v1.png"></button>
+              </div>
+            </fieldset>
+          </form>
+      </div>
+    </div>
+
+    <div class="col-md-5">
+      <p>Want to use Bookit for your business?</p>
+      <div class="container">
+          <form role="form">
+            <fieldset>
+              <div class="form-group" id="username_input">
+                  <input class="form-control" placeholder="E-mail" name="email" type="email" size="50" autofocus>
+              </div>
+
+              <div class="row">
+                <div class="form-group" id="password_input">
+                  <input class="form-control" placeholder="Password" name="password" type="password" size="50">
+                </div>
+              </div>
+
+              <div class="row" id="sign_buttons">
+                <button  type="button" class="btn btn-primary btn-lg">Sign In</button>
+                <button type="button" class="btn btn-primary btn-lg">Sign Up</button>
+              </div>
+            </fieldset>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
